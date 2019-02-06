@@ -1,0 +1,47 @@
+   "how to use git and github"
+1: Download git bash or cmder for windows: https://git-scm.com/
+2: Adding user:
+   insert username and email after open your projet folder in cmd.
+3: Git init:
+   For applying git, type command in cmd
+   //git init
+4: Staging Area:
+    Now we have to tell git, which files have to viewd and which were not.
+   //git add [filename] : for adding single file to git.
+      OR
+   //git add -A : for adding all files inside folder
+5: For checking which files are added:
+   //git status
+6: Snapshot:
+   A feature that shows the snapshot of every single change, when update.
+   Like a time machine you can go to your past. and fix errors of those files.
+7: To share your project we used github, which provide space in server to upload
+   your project and share it with others,
+   Signup to githup.com and create a new Repository,
+   Now upload your project inside this repository,
+8: Now we used a command to upload your project using the link shown in your 
+   repository:
+   //git remote add origin linkofyourRepository
+   example:
+     git remote add origin https://github.com/Abdul-Wahid12345/firstProject.git
+9: Now our project is linked to our github, now we have to pass data or upload data.
+   //git push origin master
+   it will ask you to enter email and password to upload data, once you enter 
+   details, it will upload your files, now to check go to gihup repository and 
+   refresh it.
+10: now assume if another user on another pc want to clone your repository files 
+   except of download, 
+   1: he just have to create a folder in his pc.
+   2: In cmd open his folder whic was created a sec ago.
+   4: git clone repository link.//link of your repository.
+11: // git pull origin master: to download the latest uploaded files by other users
+
+12: Basic steps:
+    git add filename     //for adding file
+    git status           //for status
+    git commit -m "i do those things"       //for snapshot, or description that what you changed.
+    git pull origin master            //for uploading to your github  if origin is not added 
+    git remote add origin https://github.com/Abdul-Wahid12345/firstProject.git    for adding your origin
+                                    
+   
+   
